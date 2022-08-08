@@ -68,3 +68,8 @@ export function waitAll<E extends Element = Element>(selector: string, minCount:
         });
     });
 }
+
+
+export const modifyStyle = (ele: HTMLElement, style: Pick<CSSStyleDeclaration, any>) => {
+    Object.assign(ele.style, style)
+}
