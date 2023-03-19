@@ -69,10 +69,10 @@ function showIFrames() {
 	const urls = [
 		'http://localhost:2333',
 		'https://www.4func.chat',
+		  'https://www.taobao.com',
+		// "https://www.huaban.com",
 		// "https://www.google.com/search?igu=1&q=你好",
 		//   'https://www.meituan.com',
-		//   'https://www.taobao.com',
-		// "https://www.huaban.com",
 	]
 	
 	const eleSuperWin = document.createElement('div')
@@ -105,8 +105,6 @@ function showIFrames() {
 		Object.assign(eleIframe.style, {
 			width: '320px',
 			height: '240px',
-			// flexGrow: "1",
-			// height: "100%"
 		} as CSSStyleDeclaration)
 		eleSuperWin.insertAdjacentElement('beforeend', eleIframe)
 	})
