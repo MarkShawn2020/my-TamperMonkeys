@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "webpack "
+    "dev": "webpack",
+    "build": "webpack --no-watch"
   },
   "devDependencies": {
     "@types/react": "^18.0.14",

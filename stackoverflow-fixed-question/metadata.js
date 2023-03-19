@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         StackOVerFlow fixed question
 // @version      0.1
-// @match        https://stackoverflow.com/questions/*
-// @require      file:///Users/mark/keeps-thinking/my-TamperMonkey/stackoverflow-fixed-question/dist/bundle.js
+// @include      https://stackoverflow.com/questions/*
+// @include      https://serverfault.com/questions/*
+// @require      file:///Users/mark/keeeps-coding/my-TamperMonkeys/stackoverflow-fixed-question/dist/bundle.js
 // @description
 // @author       MarkShawn2020
 // @namespace    https://github.com/MarkShawn2020
