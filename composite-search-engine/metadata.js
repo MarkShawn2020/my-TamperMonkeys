@@ -2,7 +2,7 @@
 // @name         composite-search-engine
 // @version      0.1
 // @match        https://www.baidu.com*
-// @require      file:///Users/mark/mark_keeps_learning/core/softwares/TamperMonkey/composite-search-engine/dist/bundle.js
+// @require      file:///Users/mark/Coding/m-archive-plugins/my-TamperMonkeys/composite-search-engine/dist/bundle.js
 // @description  -
 // @author       MarkShawn2020
 // @namespace    https://github.com/MarkShawn2020

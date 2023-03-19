@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "npx webpack"
+  },
   "devDependencies": {
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",

@@ -66,7 +66,7 @@ async function main() {
 }
 
 
-main()
+showIFrames()
 
 function showIFrames() {
     const eleBody = document.querySelector("body")
@@ -77,17 +77,28 @@ function showIFrames() {
     // insert an element as parent, ref:  https://stackoverflow.com/a/6938316/9422455
     // const eleWinFather = eleWin.parentNode;
     Object.assign(eleSuperWin.style, {
+        width: "30vw",
+        height: "30vh",
+        position: "fixed",
+        right: "0px",
+        bottom: "0px",
+        zIndex: "9999",
         display: "flex",
         flexDirection: "row",
         justifyContent: "space-around",
         flexWrap: "wrap",
-        width: "100vw",
-        height: "100vh"
     } as CSSStyleDeclaration)
     // eleSuperWin.insertAdjacentElement("afterbegin", eleWin)
     // eleWinFather.replaceChild(eleSuperWin, eleWin)
 
-    const urls = ["https://www.google.com/search?igu=1&q=你好", "https://www.huaban.com", 'https://www.meituan.com', 'https://www.taobao.com']
+    const urls = [
+      "http://localhost:2333",
+      "https://www.4func.chat",
+      // "https://www.google.com/search?igu=1&q=你好",
+      //   'https://www.meituan.com',
+      //   'https://www.taobao.com',
+        // "https://www.huaban.com",
+    ]
     urls.forEach(url_ => {
         console.log("url: ", url_);
 
